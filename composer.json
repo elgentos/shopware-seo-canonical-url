@@ -1,0 +1,27 @@
+{
+    "name": "elgentos/shopware-seo-canonical-url",
+    "description": "Use parent product canonical URL for SEO",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elgentos",
+            "role": "Manufacturer"
+        }
+    ],
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "ElgentosSeoCanonicalUrl\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "ElgentosSeoCanonicalUrl\\ElgentosSeoCanonicalUrl",
+        "plugin-icon": "src/Resources/public/administration/images/plugin.png",
+        "copyright": "(c) by Elgentos",
+        "label": {
+            "de-DE": "Verwenden Sie die kanonische URL des übergeordneten Produkts für SEO",
+            "en-GB": "Use parent product canonical URL for SEO"
+        }
+    }
+}
