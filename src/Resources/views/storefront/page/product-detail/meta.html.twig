@@ -1,7 +1,7 @@
 {% sw_extends '@Storefront/storefront/page/product-detail/meta.html.twig' %}
 
 {% block layout_head_canonical %}
-    {% if page.product.parentId and shopware.config.ElgentosSeoCanonicalUrl.config.active %}
+    {% if page.product.parentId and config('ElgentosSeoCanonicalUrl.config.active') %}
         <link rel="canonical" href="{{ seoUrl('frontend.detail.page', { productId: page.product.parentId }) }}" />
     {% else %}
         <link rel="canonical" href="{{ seoUrl('frontend.detail.page', { productId: page.product.id }) }}" />

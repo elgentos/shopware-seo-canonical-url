@@ -9,11 +9,14 @@
             "role": "Manufacturer"
         }
     ],
-    "version": "1.0.0",
+    "version": "2.0.0",
     "autoload": {
         "psr-4": {
             "ElgentosSeoCanonicalUrl\\": "src/"
         }
+    },
+    "require": {
+        "shopware/core": "^6.4"
     },
     "extra": {
         "shopware-plugin-class": "ElgentosSeoCanonicalUrl\\ElgentosSeoCanonicalUrl",
